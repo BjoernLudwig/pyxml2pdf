@@ -49,7 +49,7 @@ commands:
         name: Upgrade pip
         command: |
           pip install --upgrade 'pip<25.3'
-          pip install --upgrade pip-tools<8
+          pip install --upgrade pip-tools
           python -m piptools sync requirements/requirements.txt requirements/dev-requirements.txt
 
   tox:
@@ -189,7 +189,7 @@ jobs:
             python3 -m venv venv
             source venv/bin/activate
             pip install --upgrade pip
-            pip install python-semantic-release
+            pip install 'python-semantic-release<8'
 
       - save_cache:
           paths:

@@ -1,13 +1,13 @@
 <p align="center">
   <!-- CircleCI Tests -->
-  <a href="https://circleci.com/gh/BjoernLudwigPTB/pyxml2pdf"><img alt="CircleCI pipeline status badge" src="https://circleci.com/gh/BjoernLudwigPTB/pyxml2pdf.svg?style=shield"></a>
+  <a href="https://circleci.com/gh/BjoernLudwig/pyxml2pdf"><img alt="CircleCI pipeline status badge" src="https://circleci.com/gh/BjoernLudwigPTB/pyxml2pdf.svg?style=shield"></a>
   <!-- ReadTheDocs Documentation -->
   <a href="https://pyxml2pdf.readthedocs.io/en/latest/">
     <img src="https://readthedocs.org/projects/pyxml2pdf/badge/?version=latest" alt="ReadTheDocs badge">
   </a>
   <!-- CodeCov(erage) -->
-  <a href="https://codecov.io/gh/BjoernLudwigPTB/pyxml2pdf">
-    <img src="https://codecov.io/gh/BjoernLudwigPTB/pyxml2pdf/branch/main/graph/badge.svg" alt="CodeCov badge"/>
+  <a href="https://codecov.io/gh/BjoernLudwig/pyxml2pdf">
+    <img src="https://codecov.io/gh/BjoernLudwig/pyxml2pdf/branch/main/graph/badge.svg" alt="CodeCov badge"/>
   </a>
   <!-- PyPI Version -->
   <a href="https://pypi.org/project/pyxml2pdf">

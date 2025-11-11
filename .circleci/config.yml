@@ -173,6 +173,12 @@ jobs:
     executor: publisher
 
     steps:
+
+      # Add the deployment key needed to push later
+      - add_ssh_keys:
+          fingerprints:
+            - "SHA256:mVZ0N1yIOyhilhDybR9e0vcvHMms55FjKcyeMKV7HLk"
+
       # Checkout code
       - checkout
 

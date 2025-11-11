@@ -3,7 +3,7 @@ import os
 
 from setuptools import find_packages, setup  # type: ignore
 
-current_release_version = "0.3.4"
+current_release_version = "0.3.5"
 
 
 def read(fname):

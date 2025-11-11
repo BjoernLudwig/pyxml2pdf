@@ -2,6 +2,21 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.5 (2025-11-11)
+
+### Fix
+
+* Infact the recent changes require the package to be released again, but the trigger did not fire, hence this commit ([`a09f3e4`](https://github.com/BjoernLudwig/pyxml2pdf/commit/a09f3e49bf17e310752a732861dcce948745227a))
+* **pypdf2:** Refactor usage to most current version ([`9490998`](https://github.com/BjoernLudwig/pyxml2pdf/commit/9490998994421d6582258869c451a05d949d04ae))
+* **setup:** Upgrade package to most current Python versions ([`fc702ce`](https://github.com/BjoernLudwig/pyxml2pdf/commit/fc702cea0692b885356a9bce729fb36f5461f552))
+
+### Documentation
+
+* **README:** Correct CircleCI status badge ([`f7eae03`](https://github.com/BjoernLudwig/pyxml2pdf/commit/f7eae03f137a19ca00b9d744f88f35af31f4af5b))
+* **README:** Change project name after renaming ([`7b6d0b7`](https://github.com/BjoernLudwig/pyxml2pdf/commit/7b6d0b7dac9ba634e12e9c93efae463c6d3471ce))
+
+**[See all commits in this version](https://github.com/BjoernLudwig/pyxml2pdf/compare/v0.3.4...v0.3.5)**
+
 ## v0.3.4 (2022-07-24)
 ### Fix
 * **post_processor:** Adapt to most recent PyPDF2 import paths after their breaking change ([`08062bd`](https://github.com/BjoernLudwigPTB/pyxml2pdf/commit/08062bdf4dd5817d4e6336e9709271c7a94b510b))

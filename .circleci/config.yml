@@ -178,6 +178,11 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "SHA256:mVZ0N1yIOyhilhDybR9e0vcvHMms55FjKcyeMKV7HLk"
+      - run:
+          name: Add GitHub to known hosts for no interaction before push
+          command: |
+            mkdir -p ~/.ssh
+            ssh-keyscan github.com >> ~/.ssh/known_hosts
 
       # Checkout code
       - checkout
@@ -202,6 +207,13 @@ jobs:
             - ./venv
           key: >-
             publisher-dependencies
+
+      # Set remote to ssh
+      - run:
+          name: Make sure we publish via SSH
+          command: |
+            git remote -v
+            git remote set-url origin "git@github.com:BjoernLudwig/pyxml2pdf.git"
 
       # Publish it!
       - run:
